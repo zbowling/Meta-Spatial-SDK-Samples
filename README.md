@@ -151,3 +151,9 @@ Specifically, all the supporting materials in each sample's
 `app/src/main/res/raw` and `app/src/main/assets` folders including 3D models,
 videos, sounds, and others, are licensed under the
 [MPT SDK license](https://developer.oculus.com/licenses/oculussdk/).
+
+## AI coding agents
+
+This repo is wired up for AI coding agents — `AGENTS.md`, `.vscode/extensions.json`, `.mcp.json`, `.cursor/rules/`, and a few client-specific dotfiles surface the **Meta Horizon** VS Code/Cursor extension, the `hzdb` MCP server, and the Meta Quest skill set automatically.
+
+Full toolchain, including Meta Spatial SDK skills and per-client install instructions: [github.com/meta-quest/agentic-tools](https://github.com/meta-quest/agentic-tools).
